@@ -16,7 +16,7 @@ int main()
 	cout << "a = "; cin >> a;
 
 	z1 = (cos(a) + sin(a)) / (cos(a) - sin(a));
-	z2 = tan(2 * a) + 1 / cos(2 * a) + 1 / cos(a);
+	z2 = tan(2 * a) + 1 / cos(2 * a) + 1 / cos(2 * a);
 
 	cout << endl;
 	cout << "z1 = " << z1 << endl;
